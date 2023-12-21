@@ -42,6 +42,22 @@
       "example": "example.com",
       "required": false,
       "former": "AUTH0_ISSUER_DOMAIN"
+    },
+    "ALLOW_AUTHZ": {
+      "description": "Allow enabling of Authorization Extension integration (Deprecated)",
+      "type": "select",
+      "allowMultiple": false,
+      "default": "false",
+      "options": [
+        {
+          "value": "false",
+          "text": "No"
+        },
+        {
+          "value": "true",
+          "text": "Yes"
+        }
+      ]
     }
   }
 }

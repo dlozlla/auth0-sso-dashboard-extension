@@ -1,11 +1,11 @@
 {
-  "title": "SSO Dashboard",
+  "title": "LOZANO SSO Dashboard",
   "name": "auth0-sso-dashboard",
-  "version": "2.4.1",
-  "preVersion": "2.2.1",
+  "version": "0.0.1",
+  "preVersion": "0.0.1",
   "author": "Auth0",
   "useHashName": false,
-  "description": "This extension provides your users with a dashboard for all of their applications.",
+  "description": "This extension is just a test.",
   "type": "application",
   "category": "end_user",
   "logoUrl": "https://cdn.auth0.com/extensions/auth0-sso-dashboard/assets/logo.svg",
@@ -42,22 +42,6 @@
       "example": "example.com",
       "required": false,
       "former": "AUTH0_ISSUER_DOMAIN"
-    },
-    "ALLOW_AUTHZ": {
-      "description": "Allow enabling of Authorization Extension integration (Deprecated)",
-      "type": "select",
-      "allowMultiple": false,
-      "default": "false",
-      "options": [
-        {
-          "value": "false",
-          "text": "No"
-        },
-        {
-          "value": "true",
-          "text": "Yes"
-        }
-      ]
     }
   }
 }
